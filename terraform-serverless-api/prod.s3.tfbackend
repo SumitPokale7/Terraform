@@ -1,0 +1,6 @@
+# backend.hcl
+encrypt        = true
+region         = "eu-north-1"
+bucket         = "lawly-terraform-state-prod"
+dynamodb_table = "lawly-terraform-state-prod"
+key            = "env/prod/lawly-serverless-api.tfstate"
